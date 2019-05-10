@@ -10,6 +10,9 @@ $ yarn add mobx mobx-react
 // 1. react-app-rewired 설치
 $ yarn add react-app-rewired@^1.6.2
 
+// 2. react-scripts 버전 고정
+$ yarn add react-scripts@2.1.1
+
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
