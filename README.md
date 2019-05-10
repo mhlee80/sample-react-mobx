@@ -4,6 +4,12 @@
 ```
 // mobx 설치
 $ yarn add mobx mobx-react
+
+// -- decorate 사용을 위한 바벨 설정 추가하기 (eject 없이) --
+
+// 1. react-app-rewired 설치
+$ yarn add react-app-rewired@^1.6.2
+
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
