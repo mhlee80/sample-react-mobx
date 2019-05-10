@@ -1,4 +1,10 @@
 # sample-react-mobx
+참고: https://junojunho.com/front-end/create-react-app-with-mobx
+
+```
+// mobx 설치
+$ yarn add mobx mobx-react
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
