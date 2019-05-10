@@ -16,6 +16,14 @@ $ yarn add react-scripts@2.1.1
 // 3. decorator 모듈 설치
 $ yarn add @babel/plugin-proposal-decorators --dev
 
+// 4. package.json 변경
+"scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+},
+
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
