@@ -13,6 +13,9 @@ $ yarn add react-app-rewired@^1.6.2
 // 2. react-scripts 버전 고정
 $ yarn add react-scripts@2.1.1
 
+// 3. decorator 모듈 설치
+$ yarn add @babel/plugin-proposal-decorators --dev
+
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
