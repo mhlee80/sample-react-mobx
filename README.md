@@ -24,6 +24,16 @@ $ yarn add @babel/plugin-proposal-decorators --dev
     "eject": "react-scripts eject"
 },
 
+// 5. 바벨 데코레이터 설정을 추가하기 위해 프로젝트 root에 config-overrides.js 추가
+const { injectBabelPlugin } = require('react-app-rewired');
+
+module.exports = function override(config) {
+  config = injectBabelPlugin(['@babel/plugin-proposal-decorators', {
+    "legacy": true
+  }], config);
+
+  return config;
+}
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
